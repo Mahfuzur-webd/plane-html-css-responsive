@@ -1,13 +1,19 @@
 /* Font */
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Scheherazade+New:wght@700&family=Source+Serif+4&family=Ubuntu:wght@500&display=swap');
-</style>
+
 
 body{
+    background-color: #F3F1FF;
     font-family: 'Poppins', sans-serif;
-font-family: 'Scheherazade New', serif;
-font-family: 'Source Serif 4', sans-serif;
-font-family: 'Ubuntu', sans-serif;
+    font-family: 'Scheherazade New', serif;
+    font-family: 'Source Serif 4', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+main{
+    
+    height: 100%;
 }
 nav{
     display: flex;
@@ -38,4 +44,32 @@ nav{
 .nav,p>a,h2{
     color: white;
     text-decoration: none;
+}
+
+/* Top Players */
+.top-players{
+    margin-top: 20px;
+    height: 100%;
+    width: 700px;
+    margin-left: 585px;
+    margin-right: 385px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 10px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    
+}
+.players .player{
+    margin-bottom: 10px;
+}
+.top-players h2{
+    color: black;
 }
