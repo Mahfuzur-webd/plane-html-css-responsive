@@ -1,3 +1,41 @@
-.nav{
+/* Font */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Scheherazade+New:wght@700&family=Source+Serif+4&family=Ubuntu:wght@500&display=swap');
+</style>
+
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Scheherazade New', serif;
+font-family: 'Source Serif 4', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
     background-color: #562EFF;
+    border-radius: 8px;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+.nav,img{
+    height: 50px;
+    width: 40px;
+    padding-right: 20px;
+}
+.nav,a{
+    margin-right: 20px;
+    padding-bottom: 15px;
+}
+.h-left{
+    display: flex;
+    margin-left: 80px;
+}
+.h-right{
+    margin-right: 60px;
+    padding-right: 25px;
+}
+.nav,p>a,h2{
+    color: white;
+    text-decoration: none;
 }
