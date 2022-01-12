@@ -73,3 +73,32 @@ nav{
 .top-players h2{
     color: black;
 }
+hr{
+    width: 650px;
+    border: 1px solid #D1D1D1;
+    align-items: center;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+.blog{
+    display: flex;
+    
+}
+.thumnail img{
+    height: 117px;
+    width: 177px;
+}
+.blog-info{
+    border: 1px solid white;
+    width:164 ;
+    height: 68px;
+}
+.blog-title{
+    
+    font-size: 14px;
+    
+}
